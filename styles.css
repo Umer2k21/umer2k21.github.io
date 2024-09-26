@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Home Section */
+#home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #121212;
+}
+
+#home h1 {
+    font-size: 3rem;
+    color: #f0f0f0;
+}
+
+#home p {
+    font-size: 1.5rem;
+    color: #b0b0b0;
+    margin-bottom: 20px;
+}
+
+#home .btn {
+    background-color: #333;
+    padding: 10px 20px;
+    color: #f0f0f0;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* About Section */
+#about {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #222;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #d0d0d0;
+}
+
+/* Experience Section */
+#experience {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #181818;
+}
+
+#experience h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#experience p {
+    font-size: 1.2rem;
+    color: #d0d0d0;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 0;
+    background-color: #2b2b2b;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #d0d0d0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #121212;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    color: #b0b0b0;
+}
